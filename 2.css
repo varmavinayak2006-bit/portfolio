@@ -1,0 +1,40 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+   
+   /* color: rgba(rgb(243, 4, 4), rgb(238, 37, 11), rgba(238, 51, 9, 0.203), alpha); */
+   color: rgba(16, 57, 68, 0.718);
+   text-transform: capitalize;
+
+   text-underline-offset: 10px;
+    text-shadow: 10px 10px 10px rgb(37, 18, 11);
+}
+body{
+    display: flex ;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(w1.jpeg); 
+    background-size: cover;
+}
+.button {
+    text-transform: capitalize;
+display: block;
+margin: 20px auto;
+padding: 10px 20px;
+border-radius: 20px;
+background-color: rgba(156, 191, 200, 0.37);
+color: rgba(54, 103, 219, 0.793);
+border: none;
+}
+.button:visited{
+    color: aqua;
+}
+.button:active{
+    background-color: rgb(0, 0, 0);
+}
+.button:hover{
+    background-color: aliceblue;
+}

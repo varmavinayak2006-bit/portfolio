@@ -16,6 +16,16 @@ h2{
 }
 ul, ol {
     width: fit-content;  /* Shrinks the list box to fit only the text */
-    margin: 0 auto;      /* Centers the list box on the page */
-    text-align: left;    /* Keeps bullets attached to the text */
+     margin: 0 auto;   /*   Centers the list box on the page */
+       /* Keeps bullets attached to the text */
 }
+a:hover{
+    background-color: rgba(29, 165, 223, 0.166);
+}
+a:visited{
+    color: azure;
+}
+a:link{
+    color: aliceblue;
+}
+   
