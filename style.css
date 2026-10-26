@@ -20,7 +20,7 @@ ul, ol {
        /* Keeps bullets attached to the text */
 }
 a:hover{
-    background-color: rgba(29, 165, 223, 0.166);
+    background-color: rgba(29, 165, 223, 0.262);
 }
 a:visited{
     color: azure;
@@ -28,4 +28,12 @@ a:visited{
 a:link{
     color: aliceblue;
 }
-   
+.sum {
+    display: block;margin: auto;padding-bottom: 5%;font-family: cursive;text-overflow: ellipsis;max-width: 50%; text-align: center;
+}
+.pa{
+    color: beige;
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+}
