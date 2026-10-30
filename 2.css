@@ -1,14 +1,27 @@
-h1{
+h1 span:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+h1 span{
+    
+display: inline-block;
+}
+h1 span:hover{
+    cursor: pointer;
+}
+h1 {
+ 
     font-size: 100px;
     text-align: center;
    
    /* color: rgba(rgb(243, 4, 4), rgb(238, 37, 11), rgba(238, 51, 9, 0.203), alpha); */
-   color: rgba(51, 152, 180, 0.49);
-   text-transform: capitalize;
+   color: rgba(41, 126, 150, 0.861);
+   /* text-transform: capitalize; */
 
-   text-underline-offset: 10px;
+   /* text-underline-offset: 10px; */
     /* text-shadow: 10px 10px 10px rgb(37, 18, 11); */
 }
+
 body{
     display: flex ;
     margin: 0;
@@ -20,28 +33,60 @@ body{
     background-size: cover;
 }
 .button {
-    box-shadow: 2px 1px 10px  rgba(0, 0, 0, 0.227);
+    box-shadow: 2px 1px 100px  rgba(229, 158, 26, 0.479);
     text-transform: capitalize;
     transition: 1s;
-display: block;
+/* display: block; */
 margin: 20px auto;
 cursor: pointer;
 padding: 10px 20px;
 border-radius: 20px;
-background-color: rgba(58, 134, 248, 0.259);
-color: rgba(56, 112, 242, 0.83);
+background-color: rgba(157, 195, 251, 0);
+color: rgba(119, 138, 205, 0.83);
 
 border: none;
-}
-.button:visited{
-    color: aqua;
-}
-.button:active{
-    background-color: rgb(0, 0, 0);
 }
 .button:hover{
     background-color: aliceblue;
 }
 a{
     text-decoration: none;
+}
+.name{
+    margin: 15px auto;
+    /* box-shadow: 0px 0px 1px black; */
+    border-radius: 100%;
+    padding-bottom: 2%;
+    border: none;
+    /* width: 350px;  */
+    outline: none;
+    box-sizing: border-box;
+
+}
+h2{
+    
+    /* font-weight: 100; */
+    /* color: rgb(67, 67, 252); */
+    /* padding-right: 17px; */
+    /* padding-right: 17%; */
+}
+.name input,.pass input {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    /* background-color: rgba(50, 159, 254, 0.561); */
+    background-color: rgba(234, 250, 253, 0.7);
+    font-size:20px ;
+    transition: 1s;
+}
+.name :focus,.pass :focus{
+    background-color: rgb(252, 243, 243);
+    box-shadow: 0 0 50px rgba(2, 8, 14, 0.5);
+}
+button{
+    height: 45px;
 }
